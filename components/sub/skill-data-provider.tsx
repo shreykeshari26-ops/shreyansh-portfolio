@@ -51,7 +51,7 @@ export const SkillDataProvider = ({
         /* Primary: native img with onError fallback trigger */
         // eslint-disable-next-line @next/next/no-img-element
         <img
-          src={`/skills/${src}`}
+          src={src}
           width={width}
           height={height}
           alt={name}

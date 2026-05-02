@@ -48,8 +48,8 @@ export const Navbar = () => {
           </div>
         </div>
 
-        {/* Social Icons (Web) */}
-        <div className="hidden md:flex flex-row gap-5">
+        {/* Social Icons (Web) & CTA */}
+        <div className="hidden md:flex flex-row gap-5 items-center">
           {SOCIALS.map(({ link, name, icon: Icon }) => (
             <Link
               href={link}
@@ -57,9 +57,15 @@ export const Navbar = () => {
               rel="noreferrer noopener"
               key={name}
             >
-              <Icon className="h-6 w-6 text-white" />
+              <Icon className="h-6 w-6 text-white hover:text-[#b49bff] transition" />
             </Link>
           ))}
+          <Link
+            href="#contact"
+            className="ml-2 px-5 py-2 rounded-full bg-gradient-to-r from-[#7042f8] to-[#00d4ff] text-white font-bold text-sm shadow-[0_0_10px_rgba(112,66,248,0.3)] hover:shadow-[0_0_20px_rgba(0,212,255,0.6)] transition-all duration-300"
+          >
+            Hire Me
+          </Link>
         </div>
 
         {/* Hamburger Menu */}
@@ -94,6 +100,13 @@ export const Navbar = () => {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Resume
+            </Link>
+            <Link
+              href="#contact"
+              className="mt-2 px-6 py-2 rounded-full bg-gradient-to-r from-[#7042f8] to-[#00d4ff] text-white font-bold text-sm shadow-[0_0_10px_rgba(112,66,248,0.3)] transition-all duration-300"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Hire Me
             </Link>
           </div>
 

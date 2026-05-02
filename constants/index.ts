@@ -68,6 +68,23 @@ export const PROJECTS = [
   },
 ] as const;
 
+export const FREELANCE_PROJECTS = [
+  {
+    title: "Artisan Coffee Works",
+    description:
+      "• Engineered a premium, scroll-responsive brand splash overlay with GSAP-driven fade-out animations.\n• Integrated Playfair Display typography to elevate the application aesthetic.\n• Designed a high-performance frontend with optimized Lenis inertia scrolling.",
+    image: "/projects/artisan-coffee.png",
+    link: "#",
+  },
+  {
+    title: "Dream Home Reality",
+    description:
+      "• Built a dark theme real estate platform with luxurious gold and marble accents.\n• Implemented interactive animations including parallax zoom effects via Framer Motion.\n• Architected a responsive structure optimized for premium property viewing.",
+    image: "/projects/dream-home.png",
+    link: "#",
+  },
+] as const;
+
 export const FOOTER_DATA = [
   {
     title: "Community",

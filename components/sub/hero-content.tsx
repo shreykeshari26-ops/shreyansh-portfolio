@@ -92,7 +92,7 @@ export const HeroContent = () => {
           View Projects
         </a>
         <a
-          href="/projects/Shreyansh Keshari Resume 2.4.pdf"
+          href="/projects/Shreyansh Keshari Resume 2.5.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="px-8 py-3 rounded-xl border border-[#00d4ff] text-[#00d4ff] font-semibold hover:bg-[#00d4ff]/10 hover:shadow-[0_0_20px_rgba(0,212,255,0.4)] transition-all duration-300"

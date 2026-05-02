@@ -135,7 +135,7 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "/projects/Shreyansh Keshari Resume 2.4.pdf",
+  sourceCode: "/projects/Shreyansh Keshari Resume 2.5.pdf",
 };
 
 export const Certificates = [

@@ -12,9 +12,17 @@ import type { Points as PointsType } from "three";
 
 export const StarBackground = (props: PointsInstancesProps) => {
   const ref = useRef<PointsType | null>(null);
-  const [sphere] = useState(() =>
-    random.inSphere(new Float32Array(5000), { radius: 1.2 }),
-  );
+  const [sphere] = useState(() => {
+    const positions = new Float32Array(5001);
+    random.inSphere(positions, { radius: 1.2 });
+    // Filter out NaN values to prevent Three.js rendering errors
+    for (let i = 0; i < positions.length; i++) {
+      if (isNaN(positions[i])) {
+        positions[i] = 0;
+      }
+    }
+    return positions;
+  });
 
   useFrame((_state, delta) => {
     if (ref.current) {

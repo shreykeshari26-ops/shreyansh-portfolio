@@ -7,142 +7,33 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
-// ── Languages & Web ──────────────────────────────────────────────────────────
-export const SKILL_DATA = [
-  {
-    skill_name: "Java",
-    image: "/skills/java.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Python",
-    image: "/skills/python.jpeg",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "HTML",
-    image: "/skills/html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "CSS",
-    image: "/skills/css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js",
-    image: "/skills/next.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "/skills/tailwind.png",
-    width: 80,
-    height: 80,
-  },
+// ── Languages ────────────────────────────────────────────────────────────────
+export const Languages = [
+  { skill_name: "Java", image: "/skills/java.png", width: 70, height: 70 },
+  { skill_name: "Python", image: "/skills/python.jpeg", width: 70, height: 70 },
+  { skill_name: "TypeScript", image: "/skills/ts.png", width: 80, height: 80 },
 ] as const;
 
 // ── AI Tools ─────────────────────────────────────────────────────────────────
-export const AI_SKILL = [
-  {
-    skill_name: "Gemini",
-    image: "/skills/gemini.jpeg",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Claude",
-    image: "/skills/claude.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Ollama",
-    image: "/skills/ollama.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Vercel",
-    image: "/skills/vercel.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Antigravity",
-    image: "/skills/antigravity.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Google AI Studio",
-    image: "/skills/google-ai-studio.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "ChatGPT",
-    image: "/skills/chatgpt.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Codex",
-    image: "/skills/codex.png",
-    width: 65,
-    height: 65,
-  },
+export const AI_Tools = [
+  { skill_name: "Gemini", image: "/skills/gemini.jpeg", width: 65, height: 65 },
+  { skill_name: "Antigravity", image: "/skills/Antigravity.png", width: 65, height: 65 },
+  { skill_name: "Claude", image: "/skills/Claude.png", width: 65, height: 65 },
+  { skill_name: "Ollama", image: "/skills/Ollama.png", width: 65, height: 65 },
+  { skill_name: "ChatGPT", image: "/skills/chatgpt.png", width: 65, height: 65 },
+  { skill_name: "Google AI Studio", image: "/skills/google-ai-studio.png", width: 65, height: 65 },
+  { skill_name: "GitHub Copilot", image: "", width: 65, height: 65 },
 ] as const;
 
-// ── Design & Productivity ─────────────────────────────────────────────────────
-export const DESIGN_SKILL = [
-  {
-    skill_name: "Figma",
-    image: "/skills/figma.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Framer",
-    image: "/skills/framer.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Dribbble",
-    image: "/skills/dribbble.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Notion",
-    image: "/skills/notion.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Perplexity",
-    image: "/skills/perplexity.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "GenSpark",
-    image: "/skills/genspark.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Gamma",
-    image: "/skills/gamma.png",
-    width: 65,
-    height: 65,
-  },
+// ── Frameworks & Tools ─────────────────────────────────────────────────────
+export const Frameworks = [
+  { skill_name: "Next.js", image: "/skills/next.png", width: 80, height: 80 },
+  { skill_name: "Tailwind CSS", image: "/skills/tailwind.png", width: 80, height: 80 },
+  { skill_name: "AWS", image: "/skills/aws.png", width: 65, height: 65 },
+  { skill_name: "Vercel", image: "/skills/vercel.png", width: 65, height: 65 },
+  { skill_name: "Figma", image: "/skills/figma.png", width: 65, height: 65 },
+  { skill_name: "Supabase", image: "/skills/supabase.png", width: 65, height: 65 },
+  { skill_name: "Firebase", image: "", width: 65, height: 65 },
 ] as const;
 
 export const SOCIALS = [

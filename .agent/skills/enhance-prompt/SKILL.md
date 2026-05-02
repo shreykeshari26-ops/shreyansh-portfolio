@@ -1,0 +1,2 @@
+When I ask for a redesign, suggest layout improvements that maximize screen real estate and use smooth Framer Motion transitions between sections.
+When generating the Education section, prioritize the 10th/12th scores (93% and 87.7%) and the current B.Tech at GLBITM. Ensure the 'About' section emphasizes my background as a Software Engineer and AI Enthusiast.

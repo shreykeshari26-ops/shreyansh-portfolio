@@ -11,7 +11,7 @@ export const Projects = () => {
         My Projects
       </h1>
 
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+      <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-10">
         {PROJECTS.map((project) => (
           <ProjectCard
             key={project.title}

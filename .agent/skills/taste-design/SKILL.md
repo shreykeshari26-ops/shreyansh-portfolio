@@ -1,0 +1,2 @@
+Prioritize a 'Space-Modern' aesthetic. Use semi-transparent glassmorphism for all cards (backdrop-blur-md), high-contrast neon accents (Cyber Lime or Electric Blue), and ensure all 3D elements from Three.js or Spline feel integrated into the background, not just floating on top.
+Center the Hero content. Use a bold, futuristic sans-serif for my name 'SHREYANSH KESHARI'. Place three glassmorphism feature cards below the name showing: '2+ Projects', '5+ Certifications', and 'AI-Powered Solutions'. Use a dark violet and deep blue color palette with glowing borders

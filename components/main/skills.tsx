@@ -26,12 +26,12 @@ export const Skills = () => {
       <SkillText />
 
       {/* Tabs Navigation */}
-      <div className="flex flex-wrap items-center justify-center gap-4 mt-8 z-20">
+      <div className="flex flex-wrap items-center justify-center gap-2 md:gap-4 mt-8 z-20 px-4">
         {tabs.map((tab) => (
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            className={`px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
+            className={`px-5 py-2.5 rounded-full font-semibold transition-all duration-300 text-sm md:text-base ${
               activeTab === tab.id
                 ? "bg-[#7042f8]/20 border border-[#7042f8] text-white shadow-[0_0_15px_rgba(112,66,248,0.5)]"
                 : "bg-[#0f0f1a] border border-white/10 text-gray-400 hover:text-white hover:border-white/30"
@@ -60,9 +60,9 @@ export const Skills = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.1 }}
                 whileHover={{ scale: 1.05 }}
-                className="px-8 py-4 rounded-xl bg-[#0d0d1a]/50 backdrop-blur-xl border border-[#7042f830] shadow-[0_0_15px_rgba(112,66,248,0.1)] hover:shadow-[0_0_25px_rgba(0,212,255,0.4)] hover:border-[#ff00ff]/50 transition-colors duration-300 flex items-center justify-center min-w-[160px] text-center"
+                className="px-4 py-3 md:px-8 md:py-4 rounded-xl bg-[#0d0d1a]/50 backdrop-blur-xl border border-[#7042f830] shadow-[0_0_15px_rgba(112,66,248,0.1)] hover:shadow-[0_0_25px_rgba(0,212,255,0.4)] hover:border-[#ff00ff]/50 transition-colors duration-300 flex items-center justify-center w-full max-w-[140px] md:max-w-none text-center"
               >
-                <span className="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-cyan-300 drop-shadow-[0_0_5px_rgba(112,66,248,0.5)]">
+                <span className="text-sm md:text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-cyan-300 drop-shadow-[0_0_5px_rgba(112,66,248,0.5)] line-clamp-1">
                   {skill.skill_name}
                 </span>
               </motion.div>

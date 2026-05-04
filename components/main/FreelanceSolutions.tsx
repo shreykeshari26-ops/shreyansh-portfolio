@@ -70,6 +70,7 @@ const TiltCard = ({ project }: { project: Project }) => {
           src={project.image}
           alt={project.title}
           fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="object-cover group-hover:scale-105 transition-transform duration-500"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d1a] to-transparent opacity-80" />
@@ -156,7 +157,7 @@ export const FreelanceSolutions = () => {
       </div>
 
       {/* Cards */}
-      <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-10">
+      <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 px-6 md:px-10">
         {freelanceProjects.map((project) => (
           <TiltCard key={project.title} project={project} />
         ))}

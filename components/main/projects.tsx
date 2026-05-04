@@ -11,7 +11,7 @@ export const Projects = () => {
         My Projects
       </h1>
 
-      <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-10">
+      <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 px-6 md:px-10">
         {PROJECTS.map((project) => (
           <ProjectCard
             key={project.title}
